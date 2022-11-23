@@ -18,14 +18,12 @@ else Console.WriteLine($"Третья цифра числа: {ThirdDigitNum(numb
 int ThirdDigitNum(int num1)
 {
     int result = 0;
-    if (num1 > 1000)
+
+    while (num1 > 1000)
     {
-        while (num1 > 1000)
-        {
-            num1 = num1 / 10;
-        }
-        result = num1 % 10;
+        num1 = num1 / 10;
     }
-    else if ((num1 >= 100) && (num1 < 1000)) result = num1 % 10;
+    result = num1 % 10;
+
     return result;
 }
