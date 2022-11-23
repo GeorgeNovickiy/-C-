@@ -9,7 +9,8 @@
 Console.WriteLine("Введите трехзначное число:");
 int num1 = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine($"Вторая цифра числа {SecondDigitNum(num1)}");
+if ((99 < num1) && (num1 < 1000)) Console.WriteLine($"Третьей цифрой числа {num1} является {SecondDigitNum(num1)}");
+else Console.WriteLine($"Число {num1} не является трехзначным");
 
 int SecondDigitNum(int number)
 {
