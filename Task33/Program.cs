@@ -42,4 +42,4 @@ bool FindNumberArray(int[] arr, int numb)
 Console.Write("Введите искомое число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Заданнео число присутствует в массиве?");
-Console.WriteLine(FindNumberArray(array, number) == true ? "да" : "нет");
+Console.WriteLine(FindNumberArray(array, number) ? "да" : "нет");
