@@ -41,4 +41,5 @@ int[] CopyArray(int[] arr)
 int[] array1 = CreateArrayRndInt(5, 1, 10);
 PrintArray(array1);
 int[] array2 = CopyArray(array1);
+array2[0] = 2022;
 PrintArray(array2);
