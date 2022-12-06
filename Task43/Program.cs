@@ -6,13 +6,13 @@
 
 
 
-Console.WriteLine("Введите значение  к1:");
+Console.Write("Введите значение  к1:");
 double k1 = Convert.ToDouble(Console.ReadLine());
-Console.WriteLine("Введите значение  b1:");
+Console.Write("Введите значение  b1:");
 double b1 = Convert.ToDouble(Console.ReadLine());
-Console.WriteLine("Введите значение  к2:");
+Console.Write("Введите значение  к2:");
 double k2 = Convert.ToDouble(Console.ReadLine());
-Console.WriteLine("Введите значение  b1:");
+Console.Write("Введите значение  b1:");
 double b2 = Convert.ToDouble(Console.ReadLine());
 
 double FindX(double K1, double B1, double K2, double B2)
@@ -29,4 +29,4 @@ double FindY(double x, double K1, double B1)
 
 double X = FindX(k1, b1, k2, b2);
 double Y = FindY(X, k1, b1);
-Console.WriteLine($" Координатами точки пересечения двух прямых являются ({X},{Y})");
+Console.WriteLine($"Координатами точки пересечения двух прямых являются ({X},{Y})");
