@@ -28,8 +28,8 @@ void PrintMatrix(double[,] matrix)
         Console.Write("|");
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            if (j < matrix.GetLength(1) - 1) Console.Write($"{matrix[i, j],5}, ");
-            else Console.Write($"{matrix[i, j],5}");
+            if (j < matrix.GetLength(1) - 1) Console.Write($"{matrix[i, j],6}, ");
+            else Console.Write($"{matrix[i, j],6}");
         }
         Console.WriteLine("|");
     }
@@ -37,3 +37,4 @@ void PrintMatrix(double[,] matrix)
 
 double[,] array2D = CreateMatrixRndDouble(3, 4, -1000, 1000);
 PrintMatrix(array2D);
+

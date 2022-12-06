@@ -52,6 +52,6 @@ int numColumn = Convert.ToInt32(Console.ReadLine());
 
 int elemMatr = FindElemMatrix(array2D, numRow, numColumn);
 if (elemMatr > 0) Console.WriteLine($"Значение искомого элемента равно:{elemMatr}");
-else Console.WriteLine("Элемента с указанными индексами нет.");
+else Console.WriteLine("Элемента с указанным индексом нет.");
 Console.WriteLine();
 PrintMatrix(array2D);
