@@ -35,16 +35,7 @@ void PrintMatrix(int[,] matrix, string beginRow, string separatorElems, string e
     }
 }
 
-int[,] DeleteRowColumnMinElemMatrix(int[,] matrix, int row, int column)
-{
-    int rows = matrix.GetLength(0);
-    int columns = matrix.GetLength(1);
-    int [,] matrix2 = new int[rows-1,columns-1];
-    for (int i = 0; i < matrix.GetLength; i++)
-    {
-        
-    }
-}
+
 
 int[,] array2D = CreateMatrixRndInt(3, 4, 1, 9);
 PrintMatrix(array2D, "", "", "");
